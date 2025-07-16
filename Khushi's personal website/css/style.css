@@ -207,6 +207,23 @@ img {
     animation: shake 0.3s infinite;
 }
 
+/* .main-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.cv-container a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cv-container a:hover {
+    color: var(--secondary-color);
+    transition: 0.3s;
+}
+
 @keyframes shake {
     0% {
         transform: translate(1px, 1px) rotate(0deg);
@@ -253,7 +270,7 @@ img {
     }
 }
 
-.country-section h1 {
+/* .country-section h1 {
     margin: 0px;
     padding: calc(var(--gap)*3);
 }
@@ -278,12 +295,12 @@ img {
 
 svg{
     fill:var(--secondary-color);
-}
+} */
 
 
 .skills-section {
     padding-top: calc(var(--gap)*4);
-    padding-bottom: calc(var(--gap)*4);
+    padding-bottom: calc(var(--gap)*10);
 }
 
 .skills-section h1{
@@ -327,22 +344,29 @@ svg{
 }
 
 .ed-section h1 {
-    margin-top: 0px;
     text-align: center;
     font-size: var(--font);
 }
 
 .ed-section {
-    background-color: #00072da9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: skewY(5deg);
+    margin-top: -3rem;
+    padding: 6rem 0;
+    background-color:#02182d;
     border: 0;
     width: 100%;
-    border-radius: 10px;
     padding: 20px 0px;
     box-shadow: 0px 0px 5px 0px var(--color-darkcyan);
 }
 
 .ed-container {
+    transform: skewY(-5deg); 
+    padding: 0 2rem;
     text-align: center;
+    padding-left: calc(var(--gap)*6);
 }
 
 .ed-container div {
@@ -363,26 +387,16 @@ svg{
     transition: 0.3s;
 }
 
-.cv-container {
+/* .cv-container {
     padding: calc(var(--gap)*4);
     text-align: center;
-}
-
-.cv-container a {
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.cv-container a:hover {
-    color: var(--secondary-color);
-    transition: 0.3s;
-}
+} */
 
 
 .footer-container {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+    margin-top: calc(var(--gap)*10);
+    /* background-color: var(--secondary-color); */
+    /* color: var(--primary-color); */
     padding: calc(var(--gap)/2);
     display: grid;
     place-items: center;
