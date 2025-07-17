@@ -12,18 +12,21 @@ function scrollToElement(elementSelector, instance = 0) {
   }
 }
 
-const link1 = document.getElementById("link1");
-const link2 = document.getElementById("link2");
+document.getElementById("link3").addEventListener("click", function () {
+    window.location.href = "index.html";})
 
-link1.addEventListener('click', (event) => {
-  event.preventDefault();
-  scrollToElement('.skill-container');
-});
+// const link1 = document.getElementById("link1");
+// const link2 = document.getElementById("link2");
 
-link2.addEventListener('click', (event) => {
-  event.preventDefault();
-  scrollToElement('.content-para');
-});
+// link1.addEventListener('click', (event) => {
+//   event.preventDefault();
+//   scrollToElement('.skill-container');
+// });
+
+// link2.addEventListener('click', (event) => {
+//   event.preventDefault();
+//   scrollToElement('.content-para');
+// });
 
 // window.addEventListener('scroll', function() {
 //   const header = document.querySelector('.header-container');

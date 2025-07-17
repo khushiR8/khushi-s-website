@@ -325,6 +325,7 @@ svg{
 .s-container1{
    display: flex;
     justify-content: space-between; 
+    padding-bottom: var(--gap);
 }
 
 .s-container2{
