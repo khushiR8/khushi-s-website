@@ -539,14 +539,16 @@ img {
 }
 
 
-
 @media only screen and (max-width: 480px) {
     .header-content {
         max-width: 320px;
         width: 100%;
         margin: 0 auto;
     }
-
+    
+    .header-right{
+        gap: var(--gap);
+    }
     .header-container {
         padding: 2px 0px;
     }
@@ -586,7 +588,7 @@ img {
     }
 
     .content-para {
-        font-size: 12px;
+        font-size: 14px;
         max-width: 320px;
     }
 
@@ -606,7 +608,7 @@ img {
     }
 
     .cv-container a {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .skills-section {
@@ -661,16 +663,17 @@ img {
     .basic-projects p {
         padding-top: 10px;
         padding-bottom: calc(var(--gap)*2);
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .blk-container {
         display: flex;
         align-items: center;
         flex-direction: column;
+        justify-content: center;
     }
-
-    .blk {
+   
+    .blk a{
         width: calc(var(--gap)*8);
         height: calc(var(--gap)*4);
         margin-bottom: calc(var(--gap)*2);
@@ -690,11 +693,11 @@ img {
     }
 
     .txt-mod p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .p-mod {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .proj-1 {
@@ -740,7 +743,7 @@ img {
     }
 
     .txt-mod2 {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .main-proj {
