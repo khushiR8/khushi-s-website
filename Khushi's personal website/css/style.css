@@ -327,7 +327,6 @@ img {
     transform: skewY(-5deg);
     padding: 0 2rem;
     text-align: center;
-    /* padding-left: calc(var(--gap)*6); */
 }
 
 .ed-container div {
@@ -349,6 +348,7 @@ img {
 }
 
 .basic-projects h1 {
+
     margin-bottom: 0px;
     padding-top: calc(var(--gap)*8);
     font-size: var(--font);
@@ -374,7 +374,6 @@ img {
     width: calc(var(--gap)*10);
     height: calc(var(--gap)*5);
     background-color: var(--secondary-color);
-    /* opacity: 0.85; */
     border-radius: calc(var(--gap)/2);
     box-shadow: 0 0px 8px 0px rgba(255, 255, 255, 0.46);
     transition: transform 0.4s ease;
@@ -419,7 +418,6 @@ img {
     background-color: #ef9785;
     transition: 0.2s;
 }
-
 
 .main-proj {
     display: grid;
@@ -479,16 +477,16 @@ img {
     line-height: 1.5;
 }
 
-.txt-mod {
+.txt-mod2 {
     font-size: calc(var(--gap))
 }
 
-.txt-mod a {
+.txt-mod2 a {
     text-decoration: none;
     color: var(--color-cyan);
 }
 
-.txt-mod a:hover {
+.txt-mod2 a:hover {
     text-decoration: underline;
     transition: 0.2s;
 }
@@ -534,3 +532,275 @@ img {
     }
 }
 
+@media only screen and (min-width: 1200px) {
+    .header-content {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .header-content {
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header-container {
+        padding: 10px 0px;
+    }
+
+    .img-container {
+        display: none;
+    }
+
+    .bk-img {
+        display: none;
+    }
+
+    .main-section {
+        margin-top: calc(var(--gap)*10);
+        max-width: 700px;
+    }
+
+    .content-para {
+        max-width: 700px;
+    }
+
+    .skills-section {
+        max-width: 700px;
+    }
+
+    .basic-projects {
+        max-width: 700px;
+    }
+
+    .uni-projects {
+        max-width: 700px;
+    }
+
+    .main-proj {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .header-content {
+        max-width: 360px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header-container {
+        padding: 2px 0px;
+    }
+
+    .logo p {
+        font-size: 20px;
+    }
+
+    .list-right li a {
+        font-size: 15px;
+    }
+
+    .toggle .toggle-icon {
+        font-size: 20px;
+    }
+
+    .img-container {
+        display: none;
+    }
+
+    .bk-img {
+        display: none;
+    }
+
+    .main-section {
+        margin-top: calc(var(--gap)*6);
+        margin-bottom: calc(var(--gap)*2);
+        max-width: 360px;
+    }
+
+    .content h1 {
+        font-size: 30px;
+    }
+
+    .content h2 {
+        font-size: 20px;
+    }
+
+    .content-para {
+        font-size: 12px;
+        max-width: 360px;
+    }
+
+    .social-media a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+        border: 2px outset var(--color-cyan);
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px 0px var(--color-cyan);
+        color: var(--color-cyan);
+        margin: 10px 15px 15px 0px;
+    }
+
+    .cv-container a {
+        font-size: 12px;
+    }
+
+    .skills-section {
+        padding-top: calc(var(--gap)*2);
+        padding-bottom: calc(var(--gap)*11);
+        max-width: 360px;
+    }
+
+    .skills-section h1 {
+        font-size: 30px;
+    }
+
+    .skill-container p {
+        font-size: 20px;
+    }
+
+    .skill-container i {
+        font-size: 30px;
+    }
+
+    .s-container1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .s-container2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .ed-section h1 {
+        font-size: 30px;
+
+    }
+
+    .ed-section h2 {
+        font-size: 20px;
+    }
+
+    .basic-projects {
+        max-width: 360px;
+    }
+
+    .basic-projects h1 {
+        padding-top: calc(var(--gap)*6);
+        padding-bottom: 10px;
+        font-size: 30px;
+    }
+
+    .basic-projects p {
+        padding-top: 10px;
+        padding-bottom: calc(var(--gap)*2);
+        font-size: 12px;
+    }
+
+    .blk-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .blk {
+        width: calc(var(--gap)*8);
+        height: calc(var(--gap)*4);
+        margin-bottom: calc(var(--gap)*2);
+    }
+
+    .blk a {
+        font-size: 20px;
+    }
+
+    .uni-projects {
+        max-width: 360px;
+    }
+
+    .uni-projects h1 {
+        padding-top: calc(var(--gap)*2);
+        font-size: 30px;
+    }
+
+    .txt-mod p {
+        font-size: 12px;
+    }
+
+    .p-mod {
+        font-size: 12px;
+    }
+
+    .proj-1 {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        width: 300px;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4);
+        border-bottom: 4px solid #2ea043;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 120px;
+    }
+
+    .proj-2 {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        width: 300px;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4);
+        border-bottom: 4px solid #29648a;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 120px;
+    }
+
+    .proj-3 {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        width: 300px;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4);
+        border-bottom: 4px solid #264de4;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 120px;
+    }
+
+    .txt-mod2 {
+        font-size: 12px;
+    }
+
+    .main-proj {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .footer-container {
+        font-size: 15px;
+        margin-top: calc(var(--gap)*8);
+    }
+}
