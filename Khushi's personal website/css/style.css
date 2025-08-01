@@ -557,6 +557,24 @@ img {
     .uni-projects{
         max-width: 600px;
     }
+    .img-container {
+        display: none;
+    }
+
+    .bk-img {
+        display: none;
+    }
+     .s-container1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .s-container2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 
 }
 
