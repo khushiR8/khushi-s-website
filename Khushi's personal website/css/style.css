@@ -538,24 +538,24 @@ img {
 
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 900px){
     .header-content{
-        max-width: 600px;
+        max-width: 700px;
     }
     .header-container {
         padding: 10px 0px;
     }
     .main-section{
-        max-width: 600px;
+        max-width: 700px;
     }
     .skills-section{
-        max-width: 600px;
+        max-width: 700px;
     }
     .basic-projects{
-        max-width: 600px;
+        max-width: 700px;
     }
     .uni-projects{
-        max-width: 600px;
+        max-width: 700px;
     }
 
 }
