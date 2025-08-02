@@ -735,7 +735,7 @@ img {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     width: 100%;
-    max-width: 320px;
+    max-width: 280px;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4);
@@ -919,7 +919,7 @@ img {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     width: 100%;
-    max-width: 320px;
+    max-width: 280px;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4);
@@ -1102,7 +1102,7 @@ img {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     width: 100%;
-    max-width: 320px;
+    max-width: 280px;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4);
